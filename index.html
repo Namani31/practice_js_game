@@ -1,23 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>가위, 바위, 보</title>
 </head>
+
 <body>
     <div class="game-container">
-        <h1>가위 바위 보 게임</h1>
+        <h1>가위 바위 보</h1>
         <button id="game-start">게임 시작</button>
 
         <div class="game-screen">
-            <img src="./css/img/paper.png" alt="가위바위보 이미지">
-            <div class="game-result">
-                <div id="user-choice">나: </div>
-                <div id="computer-choice">컴퓨터: </div>
-                <div id="choice-result">결과: </div>
-            </div>
+            <img src="./css/img/paper.png" id="game-image" alt="가위바위보 이미지"><br><br>
+            <button id="가위">가위</button>
+            <button id="바위">바위</button>
+            <button id="보">보</button>
+        </div>
+        <div class="game-result">
+            <div id="user-choice">나: </div>
+            <div id="computer-choice">컴퓨터: </div>
+            <div id="choice-result">결과: </div>
         </div>
     </div>
+
 </body>
+
 </html>
